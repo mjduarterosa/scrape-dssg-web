@@ -1,83 +1,59 @@
-Name,Project
-Alexandre Portugal,andorin
-Ana Bezerra,"automatizacao-em-gestao-de-qualidade, andorin"
-Ana Curto,azp
-Ana Farinha,otimizacao-de-uma-base-de-dados-e-analise-de-dados-para-suporte-a-decisoes-operacionais
-Ana Ferreira,revista-cais
-Ana Frias,analise-de-sentimento
-Ana Horta,impacto-da-covid-19-no-mercado-de-trabalho
-Ana Mestre,fruta-feia
-André Luís,andorin
-Antony Costa,"otimizacao-do-processo-de-gestao-de-stocks-da-mercearia-comunitaria-da-rizoma, projeto-ponto-zero"
-Camille Coyac,habitacao-transparente
-Carolina Bellani,"scoping-computador-solidario, automatizacao-em-gestao-de-qualidade, projeto-ponto-zero, analise-das-propostas-politicas, analise-das-propostas-politicas, andorin"
-Catarina Farinha,"azp, analise-das-propostas-politicas, analise-das-propostas-politicas"
-Catarina Fernandes,habitacao-transparente
-Daniel Rodrigues,"observatorio-de-dados-de-violencia-domestica, analise-exploratoria-peditorio"
-Eilipa Alves,"analise-das-propostas-politicas, analise-das-propostas-politicas"
-Emanuel Canelas,projeto-ponto-zero
-Emanuel Tomé,"analise-das-propostas-politicas, analise-das-propostas-politicas"
-Filipa Castro,"fruta-feia, otimizacao-de-uma-base-de-dados-e-analise-de-dados-para-suporte-a-decisoes-operacionais, analise-exploratoria-peditorio, revista-cais"
-Filipa Rodrigues,azp
-Filipe Barroso,vigilancia-da-mortalidade
-Francisco Macedo,fruta-feia
-Fátima Rosa,andorin
-Guilherme Cardoso,"revista-cais, analise-das-propostas-politicas, analise-das-propostas-politicas"
-Henrique Pereira,azp
-Hugo Santos,azp
-Inês Xavier,"habitacao-transparente, habitacao-transparente, habitacao-transparente"
-Joana Flores,automatizacao-em-gestao-de-qualidade
-John Briceno Torres,impacto-da-covid-19-no-mercado-de-trabalho
-Jorge Carmo,fruta-feia
-Jorge Peréz,revista-cais
-José Rebelo,fruta-feia
-João Almeida,analise-de-sentimento
-João Brandão,revista-cais
-João Nunes,observatorio-de-dados-de-violencia-domestica
-João Ourique,"azp, automatizacao-em-gestao-de-qualidade, projeto-ponto-zero, otimizacao-de-uma-base-de-dados-e-analise-de-dados-para-suporte-a-decisoes-operacionais, analise-das-propostas-politicas, analise-das-propostas-politicas"
-João Palmeiro,revista-cais
-João Rodrigues,mapeamento-de-codigos-postais-para-localizacoes-em-portugal
-Leonel Murillo,otimizacao-do-processo-de-gestao-de-stocks-da-mercearia-comunitaria-da-rizoma
-Leonor Fernandes,"habitacao-transparente, habitacao-transparente"
-Luís Franco,habitacao-transparente
-Luís Martins,"automatizacao-em-gestao-de-qualidade, analise-das-propostas-politicas, analise-das-propostas-politicas"
-Luísa Mesquita,"habitacao-transparente, habitacao-transparente"
-Mahmoud,habitacao-transparente
-Maria Esteban,mapa-dos-incendios-rurais-as-ultimas-decadas
-Maria Inês,otimizacao-do-processo-de-gestao-de-stocks-da-mercearia-comunitaria-da-rizoma
-Mariana Galrinho,impacto-da-covid-19-no-mercado-de-trabalho
-Mariana Santos,projeto-ponto-zero
-Miguel José Monteiro,analise-exploratoria-peditorio
-Miguel Pacheco,otimizacao-de-uma-base-de-dados-e-analise-de-dados-para-suporte-a-decisoes-operacionais
-Nadiia Basos,mapa-dos-incendios-rurais-as-ultimas-decadas
-Nuno Lopes,"automatizacao-em-gestao-de-qualidade, otimizacao-de-uma-base-de-dados-e-analise-de-dados-para-suporte-a-decisoes-operacionais"
-Nuno Pires,vigilancia-da-mortalidade
-Patrick Egon Santos,projeto-ponto-zero
-Paulo Maia,mapeamento-de-codigos-postais-para-localizacoes-em-portugal
-Paulo Silva,vigilancia-da-mortalidade
-Paulo Victorino,scoping-computador-solidario
-Pedro Antunes,azp
-Pedro Borralho,otimizacao-de-uma-base-de-dados-e-analise-de-dados-para-suporte-a-decisoes-operacionais
-Pedro Carvalhais,azp
-Pedro Moura,revista-cais
-Pedro Preto,azp
-Pedro Rocha,habitacao-transparente
-Ricardo Costa,projeto-ponto-zero
-Ricardo Sousa,andorin
-Ricardo Vitorino,"habitacao-transparente, habitacao-transparente"
-Rodrigo Almeida,otimizacao-do-processo-de-gestao-de-stocks-da-mercearia-comunitaria-da-rizoma
-Rui Bastos,analise-de-sentimento
-Rui Fernandes,projeto-ponto-zero
-Rui Furtado,"analise-das-propostas-politicas, analise-das-propostas-politicas"
-Rui Medon,observatorio-de-dados-de-violencia-domestica
-Sara Guerreiro,scoping-computador-solidario
-Sara Guerreiro Sousa,"fruta-feia, observatorio-de-dados-de-violencia-domestica"
-Sara Guerreiro de Sousa,"analise-das-propostas-politicas, analise-das-propostas-politicas"
-Sara Leal,scoping-computador-solidario
-Sofia Alvim Ferreira,projeto-ponto-zero
-Sofia Jerónimo,andorin
-Sofia Soares,andorin
-Sofia Vaz,"otimizacao-do-processo-de-gestao-de-stocks-da-mercearia-comunitaria-da-rizoma, mapeamento-de-codigos-postais-para-localizacoes-em-portugal, automatizacao-em-gestao-de-qualidade, revista-cais, andorin"
-Tiago Freitas,analise-exploratoria-peditorio
-Tiago Sousa,otimizacao-do-processo-de-gestao-de-stocks-da-mercearia-comunitaria-da-rizoma
-Vitor Sousa,observatorio-de-dados-de-violencia-domestica
+Name,Project,Contact
+Alexandre Portugal,andorin,https://www.linkedin.com/in/alexandre-portugal-teixeira/
+Ana Bezerra,automatizacao-em-gestao-de-qualidade,https://www.linkedin.com/in/analu%C3%ADsbezerra/
+Ana Curto,azp,
+Ana Frias,analise-de-sentimento,
+Ana Horta,impacto-da-covid-19-no-mercado-de-trabalho,
+Ana Mestre,fruta-feia,
+André Luís,andorin,https://www.linkedin.com/in/andretluis/
+Antony Costa,otimizacao-do-processo-de-gestao-de-stocks-da-mercearia-comunitaria-da-rizoma,https://www.linkedin.com/in/antony-costa-b8574910b/
+Camille Coyac,habitacao-transparente,https://www.linkedin.com/in/camillecoyac/
+Catarina Fernandes,habitacao-transparente,https://www.linkedin.com/in/catarinajfernandes/
+Daniel Rodrigues,analise-exploratoria-peditorio,
+Eilipa Alves,"analise-das-propostas-politicas, analise-das-propostas-politicas",https://www.linkedin.com/in/filipacarreiraalves/
+Emanuel Canelas,projeto-ponto-zero,https://www.linkedin.com/in/emanuelcanelas/
+Emanuel Tomé,"analise-das-propostas-politicas, analise-das-propostas-politicas",https://www.linkedin.com/in/erstome/
+Filipa Castro,analise-exploratoria-peditorio,
+Filipa Rodrigues,azp,
+Filipe Barroso,vigilancia-da-mortalidade,https://github.com/OldMetalmind
+Francisco Macedo,fruta-feia,
+Fátima Rosa,andorin,https://www.linkedin.com/in/fmrosa/
+Guilherme Cardoso,"analise-das-propostas-politicas, analise-das-propostas-politicas, revista-cais",https://www.linkedin.com/in/luminoso/
+Inês Xavier,"habitacao-transparente, habitacao-transparente",http://linkedin.com/in/m-ines-xavier
+Joana Flores,automatizacao-em-gestao-de-qualidade,https://www.linkedin.com/in/joanafloresc/
+John Briceno Torres,impacto-da-covid-19-no-mercado-de-trabalho,https://github.com/jbricenot
+Jorge Peréz,revista-cais,
+José Rebelo,fruta-feia,
+João Almeida,analise-de-sentimento,
+João Nunes,observatorio-de-dados-de-violencia-domestica,https://github.com/joao-nunes
+João Palmeiro,revista-cais,
+João Rodrigues,mapeamento-de-codigos-postais-para-localizacoes-em-portugal,
+Leonel Murillo,otimizacao-do-processo-de-gestao-de-stocks-da-mercearia-comunitaria-da-rizoma,https://www.linkedin.com/in/leonelmurillo/
+Leonor Fernandes,"habitacao-transparente, habitacao-transparente",https://www.linkedin.com/in/leonor-fernandes-010b33194//
+Luís Franco,habitacao-transparente,https://www.linkedin.com/in/ra1ndeer/
+Luís Martins,automatizacao-em-gestao-de-qualidade,https://www.linkedin.com/in/lu%C3%ADs-martins/
+Luísa Mesquita,"habitacao-transparente, habitacao-transparente",https://www.linkedin.com/in/luisa-maria-mesquita/
+Mahmoud,habitacao-transparente,https://www.linkedin.com/in/mahmoud-m-mosleh/
+Maria Esteban,mapa-dos-incendios-rurais-as-ultimas-decadas,
+Maria Inês,otimizacao-do-processo-de-gestao-de-stocks-da-mercearia-comunitaria-da-rizoma,https://www.linkedin.com/in/mariainescravo/
+Mariana Galrinho,impacto-da-covid-19-no-mercado-de-trabalho,https://github.com/marianabvsg
+Mariana Santos,projeto-ponto-zero,https://www.linkedin.com/in/mariana-c-santos/
+Miguel Pacheco,otimizacao-de-uma-base-de-dados-e-analise-de-dados-para-suporte-a-decisoes-operacionais,https://www.linkedin.com/in/miguel-pacheco-ferreira-6a75013b/
+Nadiia Basos,mapa-dos-incendios-rurais-as-ultimas-decadas,
+Nuno Pires,vigilancia-da-mortalidade,https://github.com/piresn
+Patrick Egon Santos,projeto-ponto-zero,https://www.linkedin.com/in/patrick-egon-santos/
+Paulo Silva,vigilancia-da-mortalidade,https://github.com/paulo-jsilva
+Paulo Victorino,scoping-computador-solidario,https://pt.linkedin.com/in/paulovictorino
+Pedro Antunes,azp,
+Pedro Rocha,habitacao-transparente,https://www.linkedin.com/in/pedro-rocha-632bb7a3/
+Ricardo Sousa,andorin,https://www.linkedin.com/in/ricardocsousa/
+Ricardo Vitorino,habitacao-transparente,https://www.linkedin.com/in/rjvitorino/
+Rui Bastos,analise-de-sentimento,
+Rui Fernandes,projeto-ponto-zero,https://www.linkedin.com/in/ruipcf/
+Rui Furtado,"analise-das-propostas-politicas, analise-das-propostas-politicas",https://www.linkedin.com/in/rui-furtado-85a431a4/
+Rui Medon,observatorio-de-dados-de-violencia-domestica,
+Sara Leal,scoping-computador-solidario,https://www.linkedin.com/in/saradleal/
+Sofia Alvim Ferreira,projeto-ponto-zero,https://www.linkedin.com/in/sofia-alvim-ferreira/
+Sofia Jerónimo,andorin,https://www.linkedin.com/in/sofiajeron/
+Tiago Freitas,analise-exploratoria-peditorio,
+Vitor Sousa,observatorio-de-dados-de-violencia-domestica,

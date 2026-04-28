@@ -3,6 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
+from urllib.parse import urljoin
 
 url = "https://www.dssg.pt/projetos/"
 
@@ -39,11 +40,29 @@ if response.status_code == 200:
             page_response = requests.get(href, headers=headers)
             if page_response.status_code == 200:
                 page_soup = BeautifulSoup(page_response.content, 'html.parser')
+                
+                # Count <p> tags containing "maker"
+                p_tags = page_soup.find_all('p')
+                maker_count = sum(1 for p in p_tags if 'maker' in p.get_text().lower())
+                
+                # Get all <u> tags and take the last 'maker_count' ones
                 u_tags = page_soup.find_all('u')
-                for u in u_tags:
+                selected_u_tags = u_tags[-maker_count:] if maker_count > 0 else []
+                
+                print(f"Found {maker_count} 'maker' paragraphs, selecting last {len(selected_u_tags)} <u> tags")
+                
+                for u in selected_u_tags:
                     text = u.get_text().strip()
                     if text:
-                        all_u_texts.append({'Name': text, 'Project': project_name})
+                        parent_a = u.find_parent('a', href=True)
+                        contact_href = ''
+                        if parent_a:
+                            contact_href = urljoin(href, parent_a['href'])
+                        all_u_texts.append({
+                            'Name': text,
+                            'Project': project_name,
+                            'Contact': contact_href
+                        })
                         print(text)
             else:
                 print(f"Failed to retrieve {href}. Status code: {page_response.status_code}")
@@ -56,14 +75,16 @@ else:
 if all_u_texts:
     df = pd.DataFrame(all_u_texts)
     print("\nDataframe created (before grouping):")
-    print(df)
+    print(df.head())
     
-    # Group by Name and collapse projects into comma-separated string
-    df_grouped = df.groupby('Name')['Project'].apply(lambda x: ', '.join(x)).reset_index()
-    df_grouped.columns = ['Name', 'Project']
+    # Group by Name and collapse projects and contacts into comma-separated strings
+    df_grouped = df.groupby('Name').agg({
+        'Project': lambda x: ', '.join(x),
+        'Contact': lambda x: ', '.join(sorted(set(y for y in x if y)))
+    }).reset_index()
     
-    print("\nDataframe after grouping (unique names with comma-separated projects):")
-    print(df_grouped)
+    print("\nDataframe after grouping (unique names with projects and contacts):")
+    print(df_grouped.head())
     
     # Save to CSV
     df_grouped.to_csv('scraped_names.csv', index=False)
