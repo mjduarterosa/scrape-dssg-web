@@ -83,6 +83,11 @@ if all_u_texts:
         'Contact': lambda x: ', '.join(sorted(set(y for y in x if y)))
     }).reset_index()
     
+    # Remove duplicate project names within each row
+    df_grouped['Project'] = df_grouped['Project'].apply(
+        lambda x: ', '.join(dict.fromkeys(p.strip() for p in x.split(',')))
+    )
+    
     print("\nDataframe after grouping (unique names with projects and contacts):")
     print(df_grouped.head())
     
